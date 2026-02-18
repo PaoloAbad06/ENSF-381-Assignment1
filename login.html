@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Login</title>
+</head>
+
+<body class="login-body">
+    <header>
+        <img src="logo.jpeg" alt = "Sweet Scoops logo" class="header-logo">
+        <span class="header-name">Sweet Scoops Ice Cream</span>
+    </header>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+    </div>
+    <main class="login-main">
+        <h2>Welcome Back!</h2>
+        <form class="login-form">
+            <label for="username">Username</label><br>
+            <input type="text" id="username" name="Username" class="login-input"><br>
+            <label for="password">Password</label><br>
+            <input type="text" id="password" name="Password" class="login-input"><br>
+            <div class="forgot-password">
+                <input type="checkbox" id="forgot" name="forgot">
+                <label for="forgot">Forgot Password</label>
+            </div>
+            <br>
+            <button type="submit" class="login-button" onclick="location.href='menu_view.html'; return false;">Login</button>
+        </form>        
+    </main>
+    <footer>
+        <p>© 2026 Sweet Scoop Ice Cream</p>
+    </footer>
+</body>
+</html>
