@@ -4,11 +4,77 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>Index</title>
+  <title>Customize Order</title>
 </head>
 
 <body>
+  <header>
+    <img src="logo.jpeg" alt="Sweet Scoops logo" class="header-logo">
+    <span class="header-name">Sweet Scoop Ice Cream</span>
+  </header>
 
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="menu_view.html">Menu View</a>
+    <a href="customize_order.html">Customize Order</a>
+  </div>
+  <main class="custom-main">
+  <div class="banner-container">
+      <img src="Picture2.jpeg" alt="Ice cream banner" class="banner-img">
+    </div>
+    <form class="custom-form">
+
+    
+      <div class="order-block">
+        <h2>Vanilla Dream</h2>
+        <p>Choose type:</p>
+
+        <input type="radio" id="vanilla-cup" name="vanillaType" value="Cup">
+        <label for="vanilla-cup">Cup</label>
+        <br>
+
+        <input type="radio" id="vanilla-cone" name="vanillaType" value="Cone">
+        <label for="vanilla-cone">Cone</label>
+        <br><br>
+
+        <button type="button" class="submit-selection-btn">Submit Selection</button>
+      </div>
+
+      <br><br>
+
+    
+      <div class="order-block">
+        <h2>Chocolate Bliss</h2>
+        <p>Select toppings:</p>
+
+        <input type="checkbox" id="sprinkles" name="topping" value="Sprinkles">
+        <label for="sprinkles">Sprinkles</label>
+        <br>
+
+        <input type="checkbox" id="nuts" name="topping" value="Nuts">
+        <label for="nuts">Nuts</label>
+        <br>
+
+        <input type="checkbox" id="caramel" name="topping" value="Caramel">
+        <label for="caramel">Caramel</label>
+        <br><br>
+
+        <button type="button" class="submit-selection-btn">Submit Selection</button>
+      </div>
+
+    </form>
+
+    <br>
+
+    <button type="button" class="finish-order-btn"
+      onclick="location.href='order_summary.html'; return false;">
+      Finish Order
+    </button>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Sweet Scoop Ice Cream</p>
+  </footer>
 </body>
-
 </html>

@@ -187,3 +187,55 @@ footer {
     margin: 5px;
     cursor: pointer;
 }
+
+
+/* customize*/
+
+.custom-main {
+    max-width: 1100px;
+    margin: auto;     
+    padding: 20px;
+    text-align: center;   
+}
+
+.banner-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner-img {
+    width: 320px;           
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.15);
+}
+
+.order-block {
+    background-color: #fff8ee;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 15px auto;
+    width: 70%;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.12);
+}
+
+.submit-selection-btn {
+    background-color: #f28c8c;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.finish-order-btn {
+    background-color: #f28c8c;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
