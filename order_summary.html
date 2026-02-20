@@ -6,9 +6,49 @@
   <link rel="stylesheet" href="styles.css">
   <title>Index</title>
 </head>
-
 <body>
+    <header>
+        <img src="logo.jpeg" alt = "Sweet Scoops logo" class="header-logo">
+        <span class="header-name">Sweet Scoops Ice Cream</span>
+    </header>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="menu_view.html">Menu View</a>
+    </div>
+    <main>
+        <h3 class="summary-header">Order Summary</h3>
+        <table class="summary-table">
+            <tr>
+                <th>Item</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td>Ice Cream</td>
+                <td>Vanilla Dream</td>
+            </tr>
+            <tr>
+                <td>Type</td>
+                <td>Cone</td>
+            </tr>
+            <tr>
+                <td>Toppings</td>
+                <td>Sprinkles, Nuts</td>
+            </tr>
+            <tr>
+                <td>Total Price</td>
+                <td>$6.50</td>
+            </tr>
+        </table>
+    </main>
+    <div class="button-container">
+        <button type="submit" class="summary-btn" onclick="location.href='customize_order.html'; return false;">Edit Order</button><br>
+        <button type="submit" class="summary-btn">Confirm Order</button>
+    </div>
+    <footer>
+        <p>© 2026 Sweet Scoop Ice Cream</p>
+    </footer>
 
+</body>
 </body>
 
 </html>
